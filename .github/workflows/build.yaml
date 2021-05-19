@@ -22,4 +22,4 @@ jobs:
         upstream_repository: labuladong/fucking-algorithm
         upstream_branch: master
         target_branch: master
-        git_pull_args: --allow-unrelated-histories --ff
+        git_pull_args: --allow-unrelated-histories --rebase=merges --ff
